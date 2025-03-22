@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# Fichiers Godot à ignorer
+.import/
+*.translation
+*.godot 
+*.mono/
+*.mono-config
+
+# Sauvegardes et fichiers temporaires
+*.log
+*.tmp
+*.backup
+*.cfg
+
+# Build (si exporté)
+export/

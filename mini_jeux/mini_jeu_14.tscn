@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bevlqdhbllgs7"]
+
+[ext_resource type="PackedScene" uid="uid://djlrmcuakj8ye" path="res://Scenes/test.tscn" id="1_ssghp"]
+
+[node name="MiniJeu14" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_ssghp")]
+position = Vector2(327, 179)
