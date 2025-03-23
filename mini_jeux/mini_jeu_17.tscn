@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://brdo22krwq3cn"]
+
+[ext_resource type="PackedScene" path="res://Scenes/cubi_player.tscn" id="1_ct0lt"]
+[ext_resource type="PackedScene" path="res://Scenes/ground.tscn" id="2_ktema"]
+[ext_resource type="Script" path="res://Scripts/cubi_player_movement.gd" id="2_qfc1y"]
+
+[node name="Main" type="Node2D"]
+
+[node name="CubiPlayer" parent="." instance=ExtResource("1_ct0lt")]
+position = Vector2(-3, 3)
+script = ExtResource("2_qfc1y")
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_ktema")]
+position = Vector2(8, 160)

@@ -4,7 +4,6 @@
 # Fichiers Godot à ignorer
 .import/
 *.translation
-*.godot 
 *.mono/
 *.mono-config
 

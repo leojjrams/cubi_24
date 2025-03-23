@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvjc8lsckuwul"]
+
+[ext_resource type="Texture2D" uid="uid://wyyptsfevgm" path="res://icon.svg" id="1_2njbr"]
+[ext_resource type="Script" uid="uid://cukp5tjvmk3lo" path="res://Scenes/cubi_player_movement.gd" id="1_ync1a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ync1a"]
+size = Vector2(128, 127)
+
+[node name="CubiPlayer" type="CharacterBody2D"]
+script = ExtResource("1_ync1a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_ync1a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2njbr")
