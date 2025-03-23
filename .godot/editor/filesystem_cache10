@@ -1,15 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742652997
+::res://::1742761085
 icon.svg::CompressedTexture2D/CompressedTexture2D::6849888067399258283::1742647471::1742647478::1::::<><><>0<>0<>e99a1284d8d3ceb25eb7c089c1023104<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 Screenshot 2024-01-25 141526.jpg::CompressedTexture2D/CompressedTexture2D::2552305179581729188::1706188532::1742650744::1::::<><><>0<>0<>13578d4fa0e9984e468d5116b40da896<>res://.godot/imported/Screenshot 2024-01-25 141526.jpg-b74463d1856cc9e44a888e344b0e08f2.ctex::
-::res://mini_jeux/::1742652792
-mini_jeu_0.tscn::PackedScene::4246174063702085300::1742652792::0::1::::<><><>0<>0<><>::uid://dfyhfnk2attrr::::res://Scenes/character_0.tscn
-mini_jeu_1.tscn::PackedScene::5443414420035922929::1742652792::0::1::::<><><>0<>0<><>::uid://bul646cwkswdg::::res://Scenes/character_1.tscn
-mini_jeu_14.tscn::PackedScene::2711224619147651716::1742652792::0::1::::<><><>0<>0<><>::uid://djlrmcuakj8ye::::res://Scenes/test.tscn
-::res://Scenes/::1742652792
-character_0.tscn::PackedScene::7560185982764911255::1742652792::0::1::::<><><>0<>0<><>::uid://c4uewj8gw6r12::::res://icon.svg
-character_1.tscn::PackedScene::3814841358874547636::1742652792::0::1::::<><><>0<>0<><>::uid://bcmmdf8o3dfjg::::res://Screenshot 2024-01-25 141526.jpg
-test.tscn::PackedScene::7814723553476685472::1742652792::0::1::::<><><>0<>0<><>::uid://c4uewj8gw6r12::::res://icon.svg
-::res://Scripts/::1742652997
-main.gd::GDScript::6299230017064443663::1742652791::0::1::::<>Node<><>0<>0<><>::
-main.tscn::PackedScene::5618693666050709934::1742652997::0::1::::<><><>0<>0<><>::
+::res://mini_jeux/::1742660772
+mini_jeu_0.tscn::PackedScene::4246174063702085300::1742660772::0::1::::<><><>0<>0<><>::uid://dfyhfnk2attrr::::res://Scenes/character_0.tscn
+mini_jeu_1.tscn::PackedScene::5443414420035922929::1742660772::0::1::::<><><>0<>0<><>::uid://bul646cwkswdg::::res://Scenes/character_1.tscn
+mini_jeu_14.tscn::PackedScene::2711224619147651716::1742660772::0::1::::<><><>0<>0<><>::uid://djlrmcuakj8ye::::res://Scenes/test.tscn
+mini_jeu_17.tscn::PackedScene::3586723847516954561::1742660772::0::1::::<><><>0<>0<><>::res://Scenes/cubi_player.tscn<>res://Scenes/ground.tscn<>res://Scripts/cubi_player_movement.gd
+::res://Scenes/::1742660772
+character_0.tscn::PackedScene::7560185982764911255::1742660772::0::1::::<><><>0<>0<><>::uid://c4uewj8gw6r12::::res://icon.svg
+character_1.tscn::PackedScene::3814841358874547636::1742660772::0::1::::<><><>0<>0<><>::uid://bcmmdf8o3dfjg::::res://Screenshot 2024-01-25 141526.jpg
+cubi_player.tscn::PackedScene::8651988138117293195::1742660657::0::1::::<><><>0<>0<><>::uid://wyyptsfevgm::::res://icon.svg<>uid://cukp5tjvmk3lo::::res://Scenes/cubi_player_movement.gd
+ground.tscn::PackedScene::5763508253100169772::1742660657::0::1::::<><><>0<>0<><>::uid://wyyptsfevgm::::res://icon.svg
+main.tscn::PackedScene::5618693666050709934::1742660772::0::1::::<><><>0<>0<><>::
+test.tscn::PackedScene::7814723553476685472::1742660772::0::1::::<><><>0<>0<><>::uid://c4uewj8gw6r12::::res://icon.svg
+::res://Scripts/::1742660624
+cubi_player_movement.gd::GDScript::4813232262308552352::1742490043::0::1::::<>CharacterBody2D<><>0<>0<><>::
+main.gd::GDScript::6299230017064443663::1742653401::0::1::::<>Node<><>0<>0<><>::

@@ -1,14 +1,8 @@
-res://main.gd
-res://mini_jeux/mini_jeu_13.tscn
-res://Scripts/main.tscn
-res://Scenes/character_body_2d.tscn
+res://Scenes/main.tscn
 res://Scenes/test.tscn
 res://mini_jeux/mini_jeu_14.tscn
-res://2021-03-04.png
 res://mini_jeux/mini_jeu_0.tscn
 res://mini_jeux/mini_jeu_1.tscn
 res://Scenes/character_0.tscn
 res://Scenes/character_1.tscn
-res://Scenes/main.tscn
-res://Scripts/main.gd
 res://mini_jeux/mini_jeu_17.tscn

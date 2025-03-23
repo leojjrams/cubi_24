@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://brdo22krwq3cn"]
 
-[ext_resource type="PackedScene" path="res://Scenes/cubi_player.tscn" id="1_ct0lt"]
-[ext_resource type="PackedScene" path="res://Scenes/ground.tscn" id="2_ktema"]
-[ext_resource type="Script" path="res://Scripts/cubi_player_movement.gd" id="2_qfc1y"]
+[ext_resource type="PackedScene" uid="uid://dvjc8lsckuwul" path="res://Scenes/cubi_player.tscn" id="1_ct0lt"]
+[ext_resource type="PackedScene" uid="uid://cod5eysejb1mu" path="res://Scenes/ground.tscn" id="2_ktema"]
+[ext_resource type="Script" uid="uid://catth5l7u8ghs" path="res://Scripts/cubi_player_movement.gd" id="2_qfc1y"]
 
 [node name="Main" type="Node2D"]
 

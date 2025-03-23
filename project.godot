@@ -16,5 +16,5 @@ config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
-SceneManager="*res://Scripts/main.gd"
 
+SceneManager="*res://Scripts/main.gd"
